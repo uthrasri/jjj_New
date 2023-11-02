@@ -1,0 +1,67 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: org.eclipse.jetty.server
+Bnd-LastModified: 1698847894486
+Build-Jdk: 1.8.0_382
+Built-By: root
+Bundle-Classpath: .
+Bundle-Copyright: Copyright (c) 2008-2020 Mort Bay Consulting Pty Ltd an
+ d others.
+Bundle-Description: Jetty module for Jetty :: Server Core
+Bundle-DocURL: http://www.eclipse.org/jetty
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0, http://www.e
+ clipse.org/org/documents/epl-v10.php
+Bundle-ManifestVersion: 2
+Bundle-Name: Jetty :: Server Core
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-SymbolicName: org.eclipse.jetty.server
+Bundle-Vendor: Eclipse Jetty Project
+Bundle-Version: 9.4.31.v20200723
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.eclipse.jetty.server;uses:="javax.net.ssl,javax.secu
+ rity.auth,javax.servlet,javax.servlet.http,org.eclipse.jetty.http,org.e
+ clipse.jetty.io,org.eclipse.jetty.io.ssl,org.eclipse.jetty.server.handl
+ er,org.eclipse.jetty.server.session,org.eclipse.jetty.util,org.eclipse.
+ jetty.util.annotation,org.eclipse.jetty.util.component,org.eclipse.jett
+ y.util.log,org.eclipse.jetty.util.resource,org.eclipse.jetty.util.ssl,o
+ rg.eclipse.jetty.util.thread";version="9.4.31",org.eclipse.jetty.server
+ .jmx;uses:="org.eclipse.jetty.jmx,org.eclipse.jetty.server,org.eclipse.
+ jetty.util.annotation";version="9.4.31",org.eclipse.jetty.server.resour
+ ce;uses:="org.eclipse.jetty.http";version="9.4.31",org.eclipse.jetty.se
+ rver.handler;uses:="javax.servlet,javax.servlet.descriptor,javax.servle
+ t.http,org.eclipse.jetty.http,org.eclipse.jetty.io,org.eclipse.jetty.se
+ rver,org.eclipse.jetty.util,org.eclipse.jetty.util.annotation,org.eclip
+ se.jetty.util.component,org.eclipse.jetty.util.log,org.eclipse.jetty.ut
+ il.resource";version="9.4.31",org.eclipse.jetty.server.handler.jmx;uses
+ :="org.eclipse.jetty.jmx,org.eclipse.jetty.server.handler,org.eclipse.j
+ etty.util.annotation";version="9.4.31",org.eclipse.jetty.server.handler
+ .gzip;uses:="javax.servlet,javax.servlet.http,org.eclipse.jetty.http,or
+ g.eclipse.jetty.io,org.eclipse.jetty.server,org.eclipse.jetty.server.ha
+ ndler,org.eclipse.jetty.util,org.eclipse.jetty.util.component,org.eclip
+ se.jetty.util.compression,org.eclipse.jetty.util.log";version="9.4.31",
+ org.eclipse.jetty.server.nio;uses:="org.eclipse.jetty.io,org.eclipse.je
+ tty.server,org.eclipse.jetty.util.ssl,org.eclipse.jetty.util.thread";ve
+ rsion="9.4.31",org.eclipse.jetty.server.session;uses:="javax.servlet,ja
+ vax.servlet.http,javax.sql,org.eclipse.jetty.http,org.eclipse.jetty.io,
+ org.eclipse.jetty.server,org.eclipse.jetty.server.handler,org.eclipse.j
+ etty.util.annotation,org.eclipse.jetty.util.component,org.eclipse.jetty
+ .util.statistic,org.eclipse.jetty.util.thread";version="9.4.31"
+Implementation-Vendor: Eclipse Jetty Project
+Implementation-Version: 9.4.31.v20200723
+Import-Package: javax.naming,javax.net.ssl,javax.security.auth,javax.ser
+ vlet;version="[3.1.0,4)",javax.servlet.descriptor;version="[3.1.0,4)",j
+ avax.servlet.http;version="[3.1.0,4)",javax.sql,org.eclipse.jetty.http;
+ version="[9.4.31,10)",org.eclipse.jetty.http.pathmap;version="[9.4.31,1
+ 0)",org.eclipse.jetty.io;version="[9.4.31,10)",org.eclipse.jetty.io.ssl
+ ;version="[9.4.31,10)",org.eclipse.jetty.jmx;version="[9.4.31,10)";reso
+ lution:=optional,org.eclipse.jetty.server,org.eclipse.jetty.server.hand
+ ler,org.eclipse.jetty.server.resource,org.eclipse.jetty.server.session,
+ org.eclipse.jetty.util;version="[9.4.31,10)",org.eclipse.jetty.util.ann
+ otation;version="[9.4.31,10)",org.eclipse.jetty.util.component;version=
+ "[9.4.31,10)",org.eclipse.jetty.util.compression;version="[9.4.31,10)",
+ org.eclipse.jetty.util.log;version="[9.4.31,10)",org.eclipse.jetty.util
+ .resource;version="[9.4.31,10)",org.eclipse.jetty.util.ssl;version="[9.
+ 4.31,10)",org.eclipse.jetty.util.statistic;version="[9.4.31,10)",org.ec
+ lipse.jetty.util.thread;version="[9.4.31,10)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.5.0.201709291849
+url: http://www.eclipse.org/jetty
